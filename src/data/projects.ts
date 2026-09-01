@@ -18,7 +18,7 @@ export const projects: Project[] = [
       'personal site and portfolio. pixel-art wave counter backed by a serverless function.',
     tags: ['Astro', 'Tailwind CSS', 'TypeScript', 'Cloudflare Workers'],
     year: '2026',
-    repo: 'https://github.com/jonnypan2325/jonnypan2325.github.io',
+    repo: 'https://github.com/jonnypan2325/personal-website',
     href: 'https://jonathanpan.me',
   },
   {

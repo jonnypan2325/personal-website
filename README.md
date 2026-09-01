@@ -1,4 +1,4 @@
-# jonnypan2325.github.io
+# personal-website
 
 Personal portfolio built with Astro and Tailwind CSS, hosted on GitHub Pages.
 

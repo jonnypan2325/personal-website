@@ -35,11 +35,10 @@ const ATTEMPT_WINDOW_SECONDS = 60; // window for the anti-hammer guard
 const ATTEMPT_LIMIT = 30; // max /increment attempts per IP per minute
 
 // Origins allowed to call this Worker from a browser. ALLOWED_ORIGIN is the
-// canonical site; the others let you test from the github.io URL and locally.
+// canonical site; the others let you test locally.
 function allowedOrigins(env: Env): string[] {
   return [
     env.ALLOWED_ORIGIN,
-    'https://jonnypan2325.github.io',
     'http://localhost:4321',
     'http://127.0.0.1:4321',
   ];
