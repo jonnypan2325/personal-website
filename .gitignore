@@ -23,5 +23,5 @@ Thumbs.db
 # editors
 .idea/
 
-# local-only docs (kept out of the public repo)
-.docs/
+# machine-local files
+.local/
