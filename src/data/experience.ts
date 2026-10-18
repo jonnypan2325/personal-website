@@ -16,7 +16,7 @@ export const experience: Experience[] = [
     role: 'Software engineering intern',
     company: 'MyCase (8am)',
     href: 'https://8am.com',
-    dates: '2026 june - present',
+    dates: '2026 june - sept',
     summary: 'Document previews + AI document generation for law firms',
     tags: ['TypeScript', 'Ruby on Rails', 'Python', 'AWS', 'Datadog', 'mixpanel'] ,
   },
