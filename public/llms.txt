@@ -11,6 +11,7 @@
 ## Projects
 
 - Personal website : this one
+- Hamster reaction : make a face, get a matching hamster
 - Strava art : runnable doodles
 
 ## Contact

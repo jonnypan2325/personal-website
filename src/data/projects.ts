@@ -22,6 +22,15 @@ export const projects: Project[] = [
     href: 'https://jonathanpan.me',
   },
   {
+    title: 'Hamster reaction',
+    description:
+      'photobooth for you and your cute hamster twin. recognition runs on-device in the browser.',
+    tags: ['TypeScript', 'MediaPipe', 'Vite', 'Web Workers'],
+    year: '2026',
+    repo: 'https://github.com/jonnypan2325/hamster-reaction',
+    href: 'https://jonnypan2325.github.io/hamster-reaction/',
+  },
+  {
     title: 'Strava art ',
     description: 'Paste image -> convert to GPS coordinates -> walk/run/cycle -> see your art on Strava',
     tags: ['OpenCV', 'Python', 'OpenStreetMap', 'Strava API', 'some algorithms for spatial point matching'],
