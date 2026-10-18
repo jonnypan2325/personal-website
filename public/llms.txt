@@ -4,9 +4,9 @@
 
 ## Pages
 
-- [Home](https://jonathanpan.me/): overview, links, and featured projects
+- [Home](https://jonathanpan.me/): experience, leadership, and hackathons
 - [Projects](https://jonathanpan.me/projects): the full project list
-- [About](https://jonathanpan.me/about): background, experience, and resume
+- [About](https://jonathanpan.me/about): background, education, contact, and resume
 
 ## Projects
 
