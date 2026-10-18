@@ -13,10 +13,11 @@ import { projects } from '../data/projects';
         projects.map((p) => (
           <Entry
             title={p.title}
-            href={p.repo ?? p.href}
+            href={p.href ?? p.repo}
             meta={p.description}
             dates={p.year}
             tags={p.tags}
+            repo={p.repo}
             headingLevel={2}
           />
         ))

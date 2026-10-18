@@ -1,4 +1,6 @@
 ---
+import GitHubIcon from '../icons/github.svg';
+
 interface Props {
   title: string;
   href?: string;
@@ -9,10 +11,12 @@ interface Props {
   link?: { text: string; href?: string };
   /** Small labelled links shown under the entry (Devpost, GitHub, Slides, ...). */
   links?: { label: string; href: string }[];
+  /** Source repo, shown as a small GitHub icon after the title. */
+  repo?: string;
   /** Heading level so each page keeps a correct outline. */
   headingLevel?: 2 | 3;
 }
-const { title, href, meta, dates, tags, link, links, headingLevel = 3 } = Astro.props;
+const { title, href, meta, dates, tags, link, links, repo, headingLevel = 3 } = Astro.props;
 const Heading = `h${headingLevel}` as 'h2' | 'h3';
 // Open links to other sites in a new tab.
 const external = href ? href.startsWith('http') : false;
@@ -52,6 +56,19 @@ const external = href ? href.startsWith('http') : false;
               </Fragment>
             )}
           </Fragment>
+        )
+      }
+      {
+        repo && (
+          <a
+            href={repo}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`${title} on GitHub`}
+            class="ml-2 inline-block align-[-2px] text-faint transition-colors hover:text-accent"
+          >
+            <GitHubIcon width={14} height={14} aria-hidden="true" />
+          </a>
         )
       }
     </Heading>
